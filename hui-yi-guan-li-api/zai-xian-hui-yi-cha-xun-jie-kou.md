@@ -11,7 +11,7 @@
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
-| api\_secure | 是 | String | API secure |
+| api\_secret | 是 | String | API secret |
 | user\_key | 否 | String | 指定该参数时，获取与该参数相关联的在线会议信息，否则获取所有在线会议信息 |
 | page\_size | 否 | Integer | 分页显示，每页大小，不指定时默认为30 |
 | page\_number | 否 | Integer | 分页显示，第几页，不指定时默认为1 |

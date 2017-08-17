@@ -11,7 +11,7 @@
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
-| api\_secure | 是 | String | API secure |
+| api\_secret | 是 | String | API secret |
 | id | 是 | String | 会议号 |
 
 ### 响应
