@@ -6,8 +6,8 @@
   * [预约会议接口](hui-yi-guan-li-api/yu-yue-hui-yi-jie-kou.md)
   * [即时会议接口](hui-yi-guan-li-api/ji-shi-hui-yi-jie-kou.md)
   * [修改会议接口](hui-yi-guan-li-api/xiu-gai-hui-yi-jie-kou.md)
-  * 删除会议接口
-  * 在线会议查询接口
+  * [删除会议接口](hui-yi-guan-li-api/shan-chu-hui-yi-jie-kou.md)
+  * [在线会议查询接口](hui-yi-guan-li-api/zai-xian-hui-yi-cha-xun-jie-kou.md)
   * 历史会议查询接口
   * 获取会议Token接口
 * [会议监控API](hui-yi-jian-kong-api.md)
