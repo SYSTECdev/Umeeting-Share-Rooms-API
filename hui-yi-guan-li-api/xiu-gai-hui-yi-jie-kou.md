@@ -14,7 +14,8 @@
 | api\_secret | 是 | String | API secret |
 | id | 是 | String | 会议号 |
 | topic | 否 | String | 会议主题 |
-| meeting\_capacity | 否 | Integer | 会议方数 |
+| start\_time | 否 | String | 会议开始时间 |
+| duration | 否 | String | 会议持续时间 |
 | password | 否 | String | 会议密码 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 
