@@ -20,21 +20,21 @@
 
 ```js
 {
-    "status" : 200,                               // 状态码，200为成功，其他值为失败
-    "message" : "OK",                             // 本次请求结果信息，如果为错误时，即为详细的错误信息
+    "status" : 200, // 状态码，200为成功，其他值为失败
+    "message" : "OK", // 本次请求结果信息，如果为错误时，即为详细的错误信息
     "data": {
-        "page_num" : 1,                           // 分页显示的页码
-        "page_size" : 30,                         // 分页显示的每页显示记录数
-        "total_record" : 1,                       // 记录总数
-        "total_page" : 1,                         // 共计多少页
-        "has_previous_page" : false,              // 是否有前一页
-        "has_next_page" : false                   // 是否有后一页
-        "meetings": [{
-            "duration" : 20,                      // 会议持续时间
+        "page_num" : 1, // 分页显示的页码
+        "page_size" : 30, // 分页显示的每页显示记录数
+        "total_record" : 1, // 记录总数
+        "total_page" : 1, // 共计多少页
+        "has_previous_page" : false, // 是否有前一页
+        "has_next_page" : false // 是否有后一页
+        "meetings": [{
+            "duration" : 20, // 会议持续时间
             "start_time" : "2017-08-15 00:00:00", // 会议开始时间
-            "topic" : "连续看会，有点蛋疼！",         // 会议主题
-            "id" : "1360671085",                  // 会议号
-            "status": "1"                         // 会议状态，0-已预约，1-进行中
+            "topic" : "连续看会，有点蛋疼！", // 会议主题
+            "id" : "1360671085", // 会议号
+            "status": "1" // 会议状态，0-已预约，1-进行中
         }]
     }
 }
