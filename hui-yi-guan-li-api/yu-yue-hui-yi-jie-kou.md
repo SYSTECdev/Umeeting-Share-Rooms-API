@@ -13,7 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | topic | 是 | String | 会议主题 |
-| meeting\_capacity | 否 | Integer | 会议方数 |
+| meeting\_capacity | 是 | Integer | 会议方数 |
 | start\_time | 是 | String | 开始时间，格式如：2017-08-19 00:00:00 |
 | duration | 是 | Integer | 会议持续时间，以分钟为单位，必须大于30 |
 | password | 否 | String |  |
