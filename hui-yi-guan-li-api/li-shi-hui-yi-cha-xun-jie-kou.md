@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/his](https://api.systeccloud.com/umeeting/share/schedule)tory
+[https://api.systeccloud.com/umeeting/share/history](https://api.systeccloud.com/umeeting/share/schedule)
 
 ### 参数
 
