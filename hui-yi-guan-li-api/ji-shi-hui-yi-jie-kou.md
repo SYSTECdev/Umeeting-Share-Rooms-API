@@ -15,6 +15,7 @@
 | topic | 是 | String | 会议主题 |
 | meeting\_capacity | 是 | Integer | 会议方数 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
+| duration | 否 | Integer | 会议持续时间，以分钟为单位，必须大于30 |
 
 ### 响应
 
