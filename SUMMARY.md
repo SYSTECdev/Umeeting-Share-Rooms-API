@@ -10,6 +10,7 @@
   * [在线会议查询接口](hui-yi-guan-li-api/zai-xian-hui-yi-cha-xun-jie-kou.md)
   * [历史会议查询接口](hui-yi-guan-li-api/li-shi-hui-yi-cha-xun-jie-kou.md)
   * [获取会议Token接口](hui-yi-guan-li-api/huo-qu-hui-yi-token-jie-kou.md)
+  * [获取会议接口](hui-yi-guan-li-api/huo-qu-hui-yi-jie-kou.md)
 * [会议监控API](hui-yi-jian-kong-api.md)
 * [会议统计API](hui-yi-tong-ji-api.md)
 
