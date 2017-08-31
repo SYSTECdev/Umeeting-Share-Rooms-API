@@ -14,6 +14,5 @@
 * [会议监控API](hui-yi-jian-kong-api.md)
 * [会议统计API](hui-yi-tong-ji-api.md)
   * [公共会议室明细统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-ming-xi-tong-ji-jie-kou.md)
-  * [公共会议室参会人员统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-can-hui-ren-yuan-tong-ji.md)
-  * 公共会议室汇总统计j接口
+  * [公共会议室汇总统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-hui-zong-tong-ji-jie-kou.md)
 
