@@ -22,4 +22,5 @@
   * [修改会议接口](xiu-gai-hui-yi-jie-kou.md)
   * [获取会议信息接口](huo-qu-hui-yi-xin-xi-jie-kou.md)
   * [结束会议接口](jie-shu-hui-yi-jie-kou.md)
+  * [删除会议接口](shan-chu-hui-yi-jie-kou.md)
 
