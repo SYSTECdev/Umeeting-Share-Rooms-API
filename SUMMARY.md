@@ -13,7 +13,7 @@
   * [8、历史会议查询接口](hui-yi-guan-li-api/li-shi-hui-yi-cha-xun-jie-kou.md)
   * [9、获取会议Token接口](hui-yi-guan-li-api/huo-qu-hui-yi-token-jie-kou.md)
 * [二、公共会议室监控API](hui-yi-jian-kong-api.md)
-  * [1、会议室监控](hui-yi-jian-kong-api/hui-yi-shi-jian-kong.md)
+  * [1、会议室监控（监控api预约）](hui-yi-jian-kong-api/hui-yi-shi-jian-kong.md)
 * [三、会议统计API](hui-yi-tong-ji-api.md)
   * [1、公共会议室明细统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-ming-xi-tong-ji-jie-kou.md)
   * [2、公共会议室汇总统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-hui-zong-tong-ji-jie-kou.md)
