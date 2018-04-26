@@ -2,10 +2,10 @@
 
 * [简介](README.md)
 * [注意事项](zhu-yi-shi-xiang.md)
-* [会议管理API](hui-yi-guan-li-api.md)
+* [公共会议管理API](hui-yi-guan-li-api.md)
   * [预约会议接口](hui-yi-guan-li-api/yu-yue-hui-yi-jie-kou.md)
   * [即时会议接口](hui-yi-guan-li-api/ji-shi-hui-yi-jie-kou.md)
-  * [获取会议信息](hui-yi-guan-li-api/huo-qu-hui-yi-xin-xi.md)
+  * [获取会议信息接口](hui-yi-guan-li-api/huo-qu-hui-yi-xin-xi.md)
   * [修改会议接口](hui-yi-guan-li-api/xiu-gai-hui-yi-jie-kou.md)
   * [结束会议接口](hui-yi-guan-li-api/jie-shu-hui-yi-jie-kou.md)
   * [删除会议接口](hui-yi-guan-li-api/shan-chu-hui-yi-jie-kou.md)
