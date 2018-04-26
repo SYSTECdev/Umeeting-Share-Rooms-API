@@ -24,7 +24,7 @@
   * [获取会议信息接口](huo-qu-hui-yi-xin-xi-jie-kou.md)
   * [结束会议接口](jie-shu-hui-yi-jie-kou.md)
   * [删除会议接口](shan-chu-hui-yi-jie-kou.md)
-  * [在线会议列表](zai-xian-hui-yi-lie-biao.md)
-  * [历史会议列表](li-shi-hui-yi-lie-biao.md)
-  * [绑定个人账号](bang-ding-ge-ren-zhang-hao.md)
+  * [在线会议列表接口](zai-xian-hui-yi-lie-biao.md)
+  * [历史会议列表接口](li-shi-hui-yi-lie-biao.md)
+  * [绑定个人账号接口](bang-ding-ge-ren-zhang-hao.md)
 
