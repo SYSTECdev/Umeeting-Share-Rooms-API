@@ -12,10 +12,6 @@
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
 
 ### 响应
 
