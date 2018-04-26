@@ -25,9 +25,7 @@
         "start_time": "2018-04-26 15:00:00", //会议开始时间
         "del_flag": "1",              //删除标记 0 正常 1 已删除
         "password": "",
-        "topic": "",                  //会议肢体
-        "user_Key": null,
-        "meeting_capacity": "",     
+        "topic": "Topic",                  //会议肢体
         "id": "1561759092",
         "status": "0"
     }
