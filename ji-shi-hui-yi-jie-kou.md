@@ -1,0 +1,37 @@
+# 即时会议接口
+
+---
+
+### URL
+
+[https://api.systeccloud.com/umeeting/private](https://api.systeccloud.com/umeeting/share/schedule)/instant
+
+### 参数
+
+| 参数名称 | 是否必须 | 参数类型 | 描述 |
+| :--- | :--- | :--- | :--- |
+| api\_key | 是 | String | API key |
+| api\_secret | 是 | String | API secret |
+| topic | 是 | String | 会议主题 |
+| start\_time | 否 | String | 开始时间，格式如：2017-08-19 00:00:00 |
+| duration | 否 | Integer | 会议持续时间，以分钟为单位 |
+| password | 否 | String |  |
+| host\_id | 是 | String | 个人账号所对应hostId |
+
+### 响应
+
+```js
+{
+    "status" : 200,                   // 状态码，200为成功，其他值为失败
+    "message" : "OK",                 // 本次请求结果信息，如果为错误时，即为详细的错误信息
+    "data" : {
+        "host_key": "030488",         //主持人密钥
+        "meeting_id": "1825940376",   //会议号
+        "host_id": "8Eki",            //主持人hostId
+        "token": "jgkjgkjaae"         //开始会议token
+    }
+}
+```
+
+
+
