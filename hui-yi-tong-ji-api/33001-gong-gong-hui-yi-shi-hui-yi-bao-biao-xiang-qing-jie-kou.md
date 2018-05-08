@@ -37,15 +37,15 @@
             "has_video": true,
             "has_screen_share": false,
             "recording": 0,
-            "participants_count": 3,
+            "participants_count": 3,               //参会人数
             "page_count": 1,
             "page_number": 1,
             "page_size": 100,
-            "participants": [
+            "participants": [                     //参会人信息
                 {
                     "id": "zn_VfIR-TG-IaZgdU1chmg",
                     "user_id": "16778240",
-                    "user_name": "systec叶大红",
+                    "user_name": "systec",
                     "device": "Windows",
                     "ip_address": "116.31.75.13",
                     "cn": "CN",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "id": "1579334441"
+            "id": "1579334441"    //只有已结束并且至少有两个参会人的会议才有报表，否者只返回会议ID 
         },
         {
             "id": "1897462468"
