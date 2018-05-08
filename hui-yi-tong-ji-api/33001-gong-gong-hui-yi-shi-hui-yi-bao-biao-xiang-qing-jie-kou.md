@@ -18,47 +18,81 @@
 
 ```js
 {
-    "status" : 200,   // 状态码，200为成功，其他值为失败
-    "message" : "OK", // 本次请求结果信息，如果为错误时，即为详细的错误信息
-    "data" : {
-        "from" : "2017-8-31", 
-        "to" : "2017-09-01", 
-        "total_record" : 1, 
-        "total_page" : 1, 
-        "page_number" : 1, 
-        "page_size" : 30, 
-        "has_previous_page" : false,
-        "has_next_page" : false,
-        "meetings" : [
-            {
-                "uuid" : "dgvOvqWVRUWjrEOS2YI2ig==",           // 会议记录ID
-                "host_id" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ",      // 公共会议室ID
-                "meeting_id" : "1790001234",                   // 会议号
-                "topic" : "Hello world!",                      // 会议主题
-                "start_time" : "2017-08-31 00:00:00",          // 会议开始时间
-                "duration" : 120,                              // 即时会议、预约会议的持续时间
-                "end_time" : "2017-08-31 01:00:00",            // 会议结束时间（即会议被删除的时间）
-                "is_extra" : 0,                                // 是否额外会议室，即无可用会议资源时临时生成的会议室
-                "participants" : [                             // 该会议的参会者信息
-                    {
-                        "name" : "XYZ",                        // 参会者显示名称
-                        "join_time" : "2017-08-31 00:51:00",   // 参会者加入会议时间
-                        "leave_time" : "2017-08-31 00:53:04"   // 参会者离开会议时间
-                    }
-                ], 
-                "telephony_usage" : [                          // 该会议的电话参会者信息
-                    {
-                        "phone_number" : "+8613716819201",     // 电话号码
-                        "type" : "call-out",                   // 呼叫类型
-                        "start_time" : "2017-08-31 00:51:00",  // 通话开始时间
-                        "end_time" : "2017-08-31 00:53:00",    // 通话结束时间
-                        "duration" : 2                         // 通话持续时间
-                        "total" : 0.12                         // 通话费用，单位元
-                    }
-                ]
-            }
-        ]
-    }
+    "status": 200,
+    "message": "OK",
+    "data": [
+        {
+            "uuid": "xQi0Q/qxQr2iNGdamVfpGg==", //会议uuid
+            "id": 1571106323,                    //会议号
+            "type": "Past Meeting",              //类型
+            "host": "7 ",
+            "email": "shareroom7@systec.com.cn", //会议室邮箱
+            "user_type": "Corp",                 //host类型
+            "start_time": "2018-05-08T02:32:34Z", //开始时间 需要自己转换为标准时间
+            "end_time": "2018-05-08T02:37:38Z",   //结束时间 需要自己转换为标准时间
+            "duration": "6分钟",                  //持续时间
+            "has_pstn": false,
+            "has_voip": true,
+            "has_3rd_party_audio": false,
+            "has_video": true,
+            "has_screen_share": false,
+            "recording": 0,
+            "participants_count": 3,
+            "page_count": 1,
+            "page_number": 1,
+            "page_size": 100,
+            "participants": [
+                {
+                    "id": "zn_VfIR-TG-IaZgdU1chmg",
+                    "user_id": "16778240",
+                    "user_name": "systec叶大红",
+                    "device": "Windows",
+                    "ip_address": "116.31.75.13",
+                    "cn": "CN",
+                    "city": "Guangzhou",
+                    "network_type": "Wired",
+                    "join_time": "2018-05-08T02:32:34Z",
+                    "leave_time": "2018-05-08T02:37:38Z"
+                },
+                {
+                    "id": "",
+                    "user_id": "16779264",
+                    "user_name": "叶大红的 iPhone",
+                    "device": "iOS",
+                    "ip_address": "116.31.75.13",
+                    "cn": "CN",
+                    "city": "Guangzhou",
+                    "network_type": "Wifi",
+                    "join_time": "2018-05-08T02:34:06Z",
+                    "leave_time": "2018-05-08T02:35:50Z"
+                },
+                {
+                    "id": "95azRXz1QaCzH66_UqJptg",
+                    "user_id": "16780288",
+                    "user_name": "测试账号",
+                    "device": "iOS",
+                    "ip_address": "116.31.75.13",
+                    "cn": "CN",
+                    "city": "Guangzhou",
+                    "network_type": "Wifi",
+                    "join_time": "2018-05-08T02:37:09Z",
+                    "leave_time": "2018-05-08T02:37:29Z"
+                }
+            ]
+        },
+        {
+            "id": "1579334441"
+        },
+        {
+            "id": "1897462468"
+        },
+        {
+            "id": "1565208463"
+        },
+        {
+            "id": "1304637394"
+        }
+    ]
 }
 ```
 
