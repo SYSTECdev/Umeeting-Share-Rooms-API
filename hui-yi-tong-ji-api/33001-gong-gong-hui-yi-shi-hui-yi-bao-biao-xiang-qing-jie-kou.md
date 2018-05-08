@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)detail
+[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)reports
 
 ### 参数
 
@@ -12,7 +12,7 @@
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
-| from | 否 | String | 统计起始时间，默认为当天 |
+| meeting\_ids | 是 | String | "1571106323,1579334441“多个会议ID以”，“隔开 |
 | to | 否 | String | 统计结束时间，默认为当天 |
 | uuid | 否 | String | 记录ID，如果没有指定，则查询所有会议记录 |
 | host\_id | 否 | String | 公共会议室ID，如果没有指定，则查询所有公共会议室的明细信息 |
