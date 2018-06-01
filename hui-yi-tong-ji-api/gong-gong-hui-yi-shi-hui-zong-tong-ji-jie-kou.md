@@ -33,6 +33,9 @@
         "page_size" : 30, 
         "has_previous_page" : false,    
         "has_next_page" : false,
+        "total_meetings": 7, //总会议数量
+        "total_participants": 17, //总参会人
+        "total_meeting_minutes": 160, //总时长
         "rooms" : [
             {
                 "host_id" : "ABCDEFGHIJKLMNOPQRSTUVWXYZ", // 公共会议室ID
