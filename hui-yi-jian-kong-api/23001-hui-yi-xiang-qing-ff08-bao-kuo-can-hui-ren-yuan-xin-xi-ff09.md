@@ -14,12 +14,10 @@
 | api\_secret | 是 | String | API secret |
 | meeting\_id | 是 | String | 会议号 |
 | type | 是 | String | 查询类型，1 在线会议，2 历史会议 |
-| page\_size | 否 | String | 参会人分页查询大小 |
+| page\_size | 否 | String | 参会人分页大小 |
 | page\_number | 否 | String | 参会人分页页码 |
 
 ### 响应
-
-
 
 
 
