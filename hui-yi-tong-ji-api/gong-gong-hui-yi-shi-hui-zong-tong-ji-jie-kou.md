@@ -13,7 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | from | 否 | String | 统计起始时间，默认为当天\(查询时间不能超过一个月\) |
-| to | 否 | String | 统计结束时间，默认为当天（查询时间不能超过一个月） |
+| to | 否 | String | 统计结束时间，默认为当天\(查询时间不能超过一个月） |
 | host\_id | 否 | String | 公共会议室ID，如果没有指定，则查询所有公共会议室的明细信息 |
 | page\_size | 否 | Integer | 分页显示，每页大小，不指定时为30 |
 | page\_number | 否 | Integer | 分页显示，第几页，不指定时为1 |
