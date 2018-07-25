@@ -13,6 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | topic | 是 | String | 会议主题 |
+| option\_jbh | 否 | String | 允许主持人入会前加入会议 |
 | meeting\_capacity | 是 | Integer | 会议方数 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 | duration | 否 | Integer | 会议持续时间，以分钟为单位，必须大于30 |

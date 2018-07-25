@@ -14,6 +14,7 @@
 | api\_secret | 是 | String | API secret |
 | id | 是 | String | 会议号 |
 | topic | 否 | String | 会议主题 |
+| option\_jbh | 否 | String | 允许主持人入会前加入会议 |
 | start\_time | 是 | String | 会议开始时间，yyyy-MM-dd  HH:mm:ss |
 | duration | 是 | Integer | 会议持续时间 |
 | password | 否 | String | 会议密码 |
