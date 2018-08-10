@@ -30,7 +30,7 @@
         "host_key": "030488",                      //主持人密钥
         "join_url": "https://**/j/1770498237",     //入会链接
         "meeting_id": "1770498237",                //会议号   
-        "host_id": "8EkiU6-0R7eVsdg-mH4y7A",       //主持人hostId
+        "host_id": "8Eki6-0R7eVsdg-mH4y7A",        //主持人hostId
         "token": "fTlrrST1Ve8iLAMM0NCQXVvaVlTM3M9" //开始会议token
     }
 }

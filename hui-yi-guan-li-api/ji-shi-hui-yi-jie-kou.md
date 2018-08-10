@@ -31,6 +31,18 @@
         "token" : ""                  // 主持人账号Token，有SDK调用
     }
 }
+{
+    "status": 200,                                 // 状态码，200为成功，其他值为失败
+    "message": "OK",                               // 本次请求结果信息，如果为错误时，即为详细的错误信息
+    "data": {
+        "host_key": "765418",                      //主持人密钥
+        "join_url": "https://**/j/1591620888",     //入会链接
+        "meeting_id": "1591620888",                // 会议号
+        "start_time": "",                          // 开始时间
+        "host_id": "mueyYP0sQp-",                  //主持人hostId
+        "token": "9AYkPEIrxUzZmU2ZWIQXVvaVlTM3M9"  //开会token
+    }
+}
 ```
 
 
