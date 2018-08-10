@@ -22,10 +22,11 @@
     "message" : "OK",                 // 本次请求结果信息，如果为错误时，即为详细的错误信息  
      "data": {
         "duration": "60",             //会议持续时间
-        "start_time": "2018-04-26 15:00:00", //会议开始时间
+        "start_time": "2018-**",      //会议开始时间
         "del_flag": "1",              //删除标记 0 正常 1 已删除
-        "password": "",
-        "topic": "Topic",                  //会议肢体
+        "password": "",               //入会连接
+        "join_url": "",
+        "topic": "Topic",              //会议主题
         "id": "1561759092",
         "status": "0"
     }
