@@ -23,27 +23,16 @@
 ### 响应
 
 ```js
+
 {
-    "status" : 200,                   // 状态码，200为成功，其他值为失败
-    "message" : "OK",                 // 本次请求结果信息，如果为错误时，即为详细的错误信息
-    "data" : {
-        "host_key": "030488",         //主持人密钥
-        "meeting_id": "1825940376",   //会议号
-        "host_id": "8Eki",            //主持人hostId
-        "token": "jgkjgkjaae"         //开始会议token
-    }
-}
-{
-    "status": 200,                    //状态码，200为成功，其他值为失败
-    "message": "OK",                  // 本次请求结果信息，如果为错误时，即为详细的错误信息
+    "status": 200,                                //状态码，200为成功，其他值为失败
+    "message": "OK",                              // 本次请求结果信息，如果为错误时，即为详细的错误信息
     "data": {
-        "host_key": "030488",         //主持人密钥
-        "join_url": "https://u.systeccloud.com/j/1770498237", //入会链接
-        "zpk": "3qPPD6MAkpwgu6t_sYlO",
-        "meeting_id": "1770498237",
-        "start_url": 1534757700000,
-        "host_id": "8EkiU6-0R7eVsdg-mH4y7A",
-        "token": "fTlrrST1Ve8iLgY76wEL8Yld3kbNnGHPVJIfwRlHnpQ.BgMsZmROVmJ4ZERNWnhKelZLVHJjVC9Qakwvdy91T2tFMDlzQ0xwbnBFODRqTT1AYmIyZWIyYmZlN2U2NzNmZWVjNGYxZjFiNTAyYjJjMWYxYzQxZTgxOTcxZTRmODA4NTZmMjAxNjhhZWI4MDFlNQAMM0NCQXVvaVlTM3M9"
+        "host_key": "030488",                      //主持人密钥
+        "join_url": "https://**/j/1770498237",     //入会链接
+        "meeting_id": "1770498237",                //会议号   
+        "host_id": "8EkiU6-0R7eVsdg-mH4y7A",       //主持人hostId
+        "token": "fTlrrST1Ve8iLAMM0NCQXVvaVlTM3M9" //开始会议token
     }
 }
 ```
