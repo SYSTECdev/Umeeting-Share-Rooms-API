@@ -27,6 +27,7 @@
     "data" : {
         "host_key": "030488",         //主持人密钥
         "meeting_id": "1825940376",   //会议号
+        "join_url": "",               //入会链接
         "host_id": "8Eki",            //主持人hostId
         "token": "jgkjgkjaae"         //开始会议token
     }
