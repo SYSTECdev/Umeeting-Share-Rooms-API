@@ -25,6 +25,7 @@
         "start_time": "2018-04-26 15:00:00",//开始时间
         "del_flag": "0",                    //删除标志 0 正常 1 已删除            
         "password": "",                     //会议密码
+        "join_url":""                       //入会链接
         "topic": "王者荣耀世界大战",          //会议主题
         "user_Key": null,                   //用户身份key 
         "meeting_capacity": "25",           //会议方数 
