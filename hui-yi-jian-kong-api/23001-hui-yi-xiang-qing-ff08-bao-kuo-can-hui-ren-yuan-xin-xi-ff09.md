@@ -21,81 +21,81 @@
 
 {
 
-    "status": 200,
+```
+"status": 200,
 
-    "message": "OK",
+"message": "OK",
 
-    "data": {
+"data": {
 
-        "uuid": "qHu12qI/T0mQMYfBHbPEYg==",
+    "uuid": "qHu12qI/T0mQMYfBHbPEYg==",
 
-        "id": 1390480983,
+    "id": 1390480983,
 
-        "type": "Live Meeting",
+    "type": "Live Meeting",
 
-        "host": "测试8 ",
+    "host": "测试8 ",
 
-        "email": "shareroom18@systec.com.cn",
+    "email": "shareroom18@systec.com.cn",
 
-        "user\_type": "Corp",
+    "user_type": "Corp",
 
-        "start\_time": "2018-08-13T09:46:53Z",
+    "start_time": "2018-08-13T09:46:53Z",
 
-        "end\_time": "",
+    "end_time": "",
 
-        "duration": null,
+    "duration": null,
 
-        "has\_pstn": false,
+    "has_pstn": false,
 
-        "has\_voip": true,
+    "has_voip": true,
 
-        "has\_3rd\_party\_audio": false,
+    "has_3rd_party_audio": false,
 
-        "has\_video": false,
+    "has_video": false,
 
-        "has\_screen\_share": false,
+    "has_screen_share": false,
 
-        "recording": 0,
+    "recording": 0,
 
-        "participants\_count": 1,
+    "participants_count": 1,
 
-        "page\_count": 1,
+    "page_count": 1,
 
-        "page\_number": 1,
+    "page_number": 1,
 
-        "page\_size": 100,
+    "page_size": 100,
 
-        "participants": \[
+    "participants": [
 
-            {
+        {
 
-                "id": "",
+            "id": "",
 
-                "user\_id": "16778240",
+            "user_id": "16778240",
 
-                "user\_name": "叶大红的 iPhone",
+            "user_name": "叶大红的 iPhone",
 
-                "device": "iOS",
+            "device": "iOS",
 
-                "ip\_address": "183.61.126.78",
+            "ip_address": "183.61.126.78",
 
-                "cn": "CN",
+            "cn": "CN",
 
-                "city": "Guangzhou",
+            "city": "Guangzhou",
 
-                "network\_type": "Wifi",
+            "network_type": "Wifi",
 
-                "join\_time": "2018-08-13T09:46:53Z",
+            "join_time": "2018-08-13T09:46:53Z",
 
-                "leave\_time": ""
+            "leave_time": ""
 
-            }
+        }
 
-        \]
-
-    }
+    ]
 
 }
+```
 
-
+}
 
