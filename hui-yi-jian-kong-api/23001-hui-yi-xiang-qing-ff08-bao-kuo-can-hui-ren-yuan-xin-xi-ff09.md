@@ -19,5 +19,81 @@
 
 ### 响应
 
+{
 
+    "status": 200,
+
+    "message": "OK",
+
+    "data": {
+
+        "uuid": "qHu12qI/T0mQMYfBHbPEYg==",
+
+        "id": 1390480983,
+
+        "type": "Live Meeting",
+
+        "host": "测试8 ",
+
+        "email": "shareroom18@systec.com.cn",
+
+        "user\_type": "Corp",
+
+        "start\_time": "2018-08-13T09:46:53Z",
+
+        "end\_time": "",
+
+        "duration": null,
+
+        "has\_pstn": false,
+
+        "has\_voip": true,
+
+        "has\_3rd\_party\_audio": false,
+
+        "has\_video": false,
+
+        "has\_screen\_share": false,
+
+        "recording": 0,
+
+        "participants\_count": 1,
+
+        "page\_count": 1,
+
+        "page\_number": 1,
+
+        "page\_size": 100,
+
+        "participants": \[
+
+            {
+
+                "id": "",
+
+                "user\_id": "16778240",
+
+                "user\_name": "叶大红的 iPhone",
+
+                "device": "iOS",
+
+                "ip\_address": "183.61.126.78",
+
+                "cn": "CN",
+
+                "city": "Guangzhou",
+
+                "network\_type": "Wifi",
+
+                "join\_time": "2018-08-13T09:46:53Z",
+
+                "leave\_time": ""
+
+            }
+
+        \]
+
+    }
+
+}
 
