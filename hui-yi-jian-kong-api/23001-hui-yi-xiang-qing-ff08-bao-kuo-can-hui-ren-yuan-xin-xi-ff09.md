@@ -27,7 +27,7 @@
     "message" : "OK",                 // 本次请求结果信息，如果为错误时，即为详细的错误信息
     "data": [
         "data": {
-        "uuid": "qHu12qI/T0mQMYfBHbPEYg==",
+        "uuid": "qHu12qI/==",
         "id": 1390480983,
         "type": "Live Meeting",
         "host": "测试8 ",
