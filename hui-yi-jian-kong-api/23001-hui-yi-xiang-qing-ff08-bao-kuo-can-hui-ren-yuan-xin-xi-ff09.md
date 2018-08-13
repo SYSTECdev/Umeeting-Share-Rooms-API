@@ -17,85 +17,35 @@
 | page\_size | 否 | String | 参会人分页大小 |
 | page\_number | 否 | String | 参会人分页页码 |
 
+### 
+
 ### 响应
 
+```js
 {
-
-```
-"status": 200,
-
-"message": "OK",
-
-"data": {
-
-    "uuid": "qHu12qIT0mQMYfBHbPEYg==",
-
-    "id": 1390480983,
-
-    "type": "Live Meeting",
-
-    "host": "测试8 ",
-
-    "email": "shareroom18@systec.com.cn",
-
-    "user_type": "Corp",
-
-    "start_time": "2018-08-13T09:46:53Z",
-
-    "end_time": "",
-
-    "duration": null,
-
-    "has_pstn": false,
-
-    "has_voip": true,
-
-    "has_3rd_party_audio": false,
-
-    "has_video": false,
-
-    "has_screen_share": false,
-
-    "recording": 0,
-
-    "participants_count": 1,
-
-    "page_count": 1,
-
-    "page_number": 1,
-
-    "page_size": 100,
-
-    "participants": [
-
+    "status" : 200,                   // 状态码，200为成功，其他值为失败
+    "message" : "OK",                 // 本次请求结果信息，如果为错误时，即为详细的错误信息
+    "data": [
         {
-
-            "id": "",
-
-            "user_id": "16778240",
-
-            "user_name": "叶大红的 iPhone",
-
-            "device": "iOS",
-
-            "ip_address": "183.61.126.78",
-
-            "cn": "CN",
-
-            "city": "Guangzhou",
-
-            "network_type": "Wifi",
-
-            "join_time": "2018-08-13T09:46:53Z",
-
-            "leave_time": ""
-
+            "id": "2-Vhs-ODRFS3AvstEXupxQ",       //hostId
+            "email": "shareroom3@systec.com.cn",  //会议室账号邮箱
+            "first_name": "3",                    //会议室名称
+            "meeting_capacity": "25",             //会议室方数
+            "meetings": [                         //已预约或者正在进行中的会议
+                {
+                    "duration": "50",
+                    "start_time": "2018-04-26 15:00:00",
+                    "host_key": "367260",
+                    "topic": "王者荣耀世界大战",
+                    "meeting_capacity": "25",
+                    "id": "1370845021",
+                    "type": "2",
+                    "status": "0"
+                }
+            ]
         }
-
-    ]
-
 }
 ```
 
-}
+
 
