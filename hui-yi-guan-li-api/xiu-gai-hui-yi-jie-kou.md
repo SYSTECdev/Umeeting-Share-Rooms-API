@@ -16,7 +16,7 @@
 | topic | 否 | String | 会议主题 |
 | option\_jbh | 否 | String | 允许主持人入会前加入会议，true/false，true为允许，false为不允许 |
 | start\_time | 是 | String | 会议开始时间，yyyy-MM-dd  HH:mm:ss |
-| duration | 是 | Integer | 会议持续时间 |
+| duration | 是 | Integer | 会议持续时间（分钟） |
 | password | 否 | String | 会议密码 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 
