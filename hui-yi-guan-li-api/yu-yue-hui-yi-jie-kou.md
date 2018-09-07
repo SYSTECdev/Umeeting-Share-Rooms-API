@@ -16,7 +16,7 @@
 | meeting\_capacity | 是 | Integer | 会议方数 |
 | start\_time | 是 | String | 开始时间，格式如：2017-08-19 00:00:00 |
 | duration | 是 | Integer | 会议持续时间，以分钟为单位，必须大于30 |
-| option\_jbh | 否 | String       true/false | 允许主持人入会前加入会议 |
+| option\_jbh | 否 | String       | 允许主持人入会前加入会议，true/false，true为允许，false为不允许 |
 | password | 否 | String | 会议密码 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 
