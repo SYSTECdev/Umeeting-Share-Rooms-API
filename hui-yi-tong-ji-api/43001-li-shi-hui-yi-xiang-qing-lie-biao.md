@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/meetingTime](https://api.systeccloud.com/umeeting/share/meetingTime)
+[https://api.systeccloud.com/umeeting/share/hisMeetin](https://api.systeccloud.com/umeeting/share/meetingTime)g
 
 ### 参数
 
@@ -23,78 +23,57 @@
     "message": "OK",
     "data": [
         {
-            "uuid": "xQi0Q/qxQr2iNGdamVfpGg==", //会议uuid
-            "id": 1571106323,                    //会议号
-            "type": "Past Meeting",              //类型
-            "host": "7 ",
-            "email": "shareroom7@systec.com.cn", //会议室邮箱
-            "user_type": "Corp",                 //host类型
-            "start_time": "2018-05-08T02:32:34Z", //开始时间 需要自己转换为标准时间
-            "end_time": "2018-05-08T02:37:38Z",   //结束时间 需要自己转换为标准时间
-            "duration": "6分钟",                  //持续时间
+            "uuid": "jny6Sttx8NitKXw==",
+            "id": 1376669196,
+            "host": "test03 ",
+            "email": "test03@rfchina.com",
+            "user_type": "Corp",
+            "start_time": "2018-01-02T03:53:18Z",
+            "end_time": "2018-01-02T04:02:10Z",
+            "duration": "9分钟",
+            "participants": 2,
             "has_pstn": false,
-            "has_voip": true,
+            "has_voip": false,
             "has_3rd_party_audio": false,
-            "has_video": true,
+            "has_video": false,
             "has_screen_share": false,
-            "recording": 0,
-            "participants_count": 3,               //参会人数
-            "page_count": 1,
-            "page_number": 1,
-            "page_size": 100,
-            "participants": [                     //参会人信息
-                {
-                    "id": "zn_VfIR-TG-IaZgdU1chmg",
-                    "user_id": "16778240",
-                    "user_name": "systec",
-                    "device": "Windows",
-                    "ip_address": "116.31.75.13",
-                    "cn": "CN",
-                    "city": "Guangzhou",
-                    "network_type": "Wired",
-                    "join_time": "2018-05-08T02:32:34Z",
-                    "leave_time": "2018-05-08T02:37:38Z"
-                },
-                {
-                    "id": "",
-                    "user_id": "16779264",
-                    "user_name": "叶大红的 iPhone",
-                    "device": "iOS",
-                    "ip_address": "116.31.75.13",
-                    "cn": "CN",
-                    "city": "Guangzhou",
-                    "network_type": "Wifi",
-                    "join_time": "2018-05-08T02:34:06Z",
-                    "leave_time": "2018-05-08T02:35:50Z"
-                },
-                {
-                    "id": "95azRXz1QaCzH66_UqJptg",
-                    "user_id": "16780288",
-                    "user_name": "测试账号",
-                    "device": "iOS",
-                    "ip_address": "116.31.75.13",
-                    "cn": "CN",
-                    "city": "Guangzhou",
-                    "network_type": "Wifi",
-                    "join_time": "2018-05-08T02:37:09Z",
-                    "leave_time": "2018-05-08T02:37:29Z"
-                }
-            ]
+            "recording": 0
         },
         {
-            "id": "1579334441"    //只有已结束并且至少有两个参会人的会议才有报表，否者只返回会议ID 
+            "uuid": "kpSi6A4nTMUxctsQ==",
+            "id": 1396312207,
+            "host": "test03 ",
+            "email": "test03@rfchina.com",
+            "user_type": "Corp",
+            "start_time": "2018-01-02T09:29:47Z",
+            "end_time": "2018-01-02T09:31:27Z",
+            "duration": "2分钟",
+            "participants": 2,
+            "has_pstn": false,
+            "has_voip": false,
+            "has_3rd_party_audio": false,
+            "has_video": false,
+            "has_screen_share": false,
+            "recording": 0
         },
         {
-            "id": "1897462468"
-        },
-        {
-            "id": "1565208463"
-        },
-        {
-            "id": "1304637394"
+            "uuid": "xqWWWA==",
+            "id": 1397639071,
+            "host": "test05 ",
+            "email": "test05@rfchina.com",
+            "user_type": "Corp",
+            "start_time": "2018-01-03T02:47:21Z",
+            "end_time": "2018-01-03T02:50:32Z",
+            "duration": "4分钟",
+            "participants": 2,
+            "has_pstn": false,
+            "has_voip": false,
+            "has_3rd_party_audio": false,
+            "has_video": false,
+            "has_screen_share": false,
+            "recording": 0
         }
-    ]
-}
+    }
 ```
 
 
