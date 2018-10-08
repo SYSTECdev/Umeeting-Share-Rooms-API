@@ -22,22 +22,22 @@
     "message": "OK",
     "data": [
         {
-            "duration": "45",
-            "start_time": "2018-04-02 10:32:33",
-            "participants_count": 3,
-            "total_participants_deration": 127,
-            "host": "富力",
-            "end_time": "2018-04-02 11:17:04",
-            "id": "1806697677",
-            "uuid": "Ov8vv4PiR/mYW3Px8NuJVg==",
+            "duration": "45",                          //会议持续时间 分钟  
+            "start_time": "2018-04-02 10:32:33",       //会议开始时间
+            "participants_count": 3,                   //参会人数
+            "total_participants_deration": 127,        //参会人数总时长
+            "host": "富力",                             //会议室名称 
+            "end_time": "2018-04-02 11:17:04",         //结束时间
+            "id": "1806697677",                        //会议ID
+            "uuid": "Ov8vv4PiR/mYW3Px8NuJVg==",        //会议uuid
             "email": "test67@rfchina.com",
             "participants": [
                 {
-                    "uuid": "3f5a47d1-718e-4ce8-a20a-d22368a24310",
+                    "uuid": "3f5a47d1-718e-4ce8-a20a-d22368a24310", 
                     "meetingId": "1806697677",
                     "name": "Taiyuan-rf",
-                    "joinTime": "2018-04-02 10:32:33",
-                    "leaveTime": "2018-04-02 11:16:49",
+                    "joinTime": "2018-04-02 10:32:33",       //参会人入会时间
+                    "leaveTime": "2018-04-02 11:16:49",      //参会人离开时间
                     "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
                 },
                 {
