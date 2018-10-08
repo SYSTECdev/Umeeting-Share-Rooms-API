@@ -22,75 +22,41 @@
     "message": "OK",
     "data": [
         {
-            "uuid": "xQi0Q/qxQr2iNGdamVfpGg==", //会议uuid
-            "id": 1571106323,                    //会议号
-            "type": "Past Meeting",              //类型
-            "host": "7 ",
-            "email": "shareroom7@systec.com.cn", //会议室邮箱
-            "user_type": "Corp",                 //host类型
-            "start_time": "2018-05-08T02:32:34Z", //开始时间 需要自己转换为标准时间
-            "end_time": "2018-05-08T02:37:38Z",   //结束时间 需要自己转换为标准时间
-            "duration": "6分钟",                  //持续时间
-            "has_pstn": false,
-            "has_voip": true,
-            "has_3rd_party_audio": false,
-            "has_video": true,
-            "has_screen_share": false,
-            "recording": 0,
-            "participants_count": 3,               //参会人数
-            "page_count": 1,
-            "page_number": 1,
-            "page_size": 100,
-            "participants": [                     //参会人信息
+            "duration": "45",
+            "start_time": "2018-04-02 10:32:33",
+            "participants_count": 3,
+            "total_participants_deration": 127,
+            "host": "富力",
+            "end_time": "2018-04-02 11:17:04",
+            "id": "1806697677",
+            "uuid": "Ov8vv4PiR/mYW3Px8NuJVg==",
+            "email": "test67@rfchina.com",
+            "participants": [
                 {
-                    "id": "zn_VfIR-TG-IaZgdU1chmg",
-                    "user_id": "16778240",
-                    "user_name": "systec",
-                    "device": "Windows",
-                    "ip_address": "116.31.75.13",
-                    "cn": "CN",
-                    "city": "Guangzhou",
-                    "network_type": "Wired",
-                    "join_time": "2018-05-08T02:32:34Z",
-                    "leave_time": "2018-05-08T02:37:38Z"
+                    "uuid": "3f5a47d1-718e-4ce8-a20a-d22368a24310",
+                    "meetingId": "1806697677",
+                    "name": "Taiyuan-rf",
+                    "joinTime": "2018-04-02 10:32:33",
+                    "leaveTime": "2018-04-02 11:16:49",
+                    "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
                 },
                 {
-                    "id": "",
-                    "user_id": "16779264",
-                    "user_name": "叶大红的 iPhone",
-                    "device": "iOS",
-                    "ip_address": "116.31.75.13",
-                    "cn": "CN",
-                    "city": "Guangzhou",
-                    "network_type": "Wifi",
-                    "join_time": "2018-05-08T02:34:06Z",
-                    "leave_time": "2018-05-08T02:35:50Z"
+                    "uuid": "464d5b0d-31a7-4d66-bd71-8fef73f75b59",
+                    "meetingId": "1806697677",
+                    "name": "hohhot",
+                    "joinTime": "2018-04-02 10:32:36",
+                    "leaveTime": "2018-04-02 11:17:01",
+                    "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
                 },
                 {
-                    "id": "95azRXz1QaCzH66_UqJptg",
-                    "user_id": "16780288",
-                    "user_name": "测试账号",
-                    "device": "iOS",
-                    "ip_address": "116.31.75.13",
-                    "cn": "CN",
-                    "city": "Guangzhou",
-                    "network_type": "Wifi",
-                    "join_time": "2018-05-08T02:37:09Z",
-                    "leave_time": "2018-05-08T02:37:29Z"
+                    "uuid": "feb5901a-43cd-4e8c-96ad-051f76bd9cd6",
+                    "meetingId": "1806697677",
+                    "name": "Administrator",
+                    "joinTime": "2018-04-02 10:38:07",
+                    "leaveTime": "2018-04-02 11:17:03",
+                    "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
                 }
             ]
-        },
-        {
-            "id": "1579334441"    //只有已结束并且至少有两个参会人的会议才有报表，否者只返回会议ID 
-        },
-        {
-            "id": "1897462468"
-        },
-        {
-            "id": "1565208463"
-        },
-        {
-            "id": "1304637394"
         }
     ]
 }
