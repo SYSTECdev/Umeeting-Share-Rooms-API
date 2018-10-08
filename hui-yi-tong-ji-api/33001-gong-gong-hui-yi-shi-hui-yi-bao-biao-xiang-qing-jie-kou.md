@@ -12,7 +12,7 @@
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
-| meeting\_ids | 是 | String | "1571106323,1579334441“多个会议ID以”，“隔开，一次只能查询200个ID |
+| uuid | 是 | String | "uuid":"tIEAQbEIQz6t7rzwAcJ04g==,aZESCNh6Qj2irKauQETyQQ==,Ov8vv4PiR/mYW3Px8NuJVg=="多个会议UUID以”，“隔开 |
 
 ### 响应
 
