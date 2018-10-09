@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)reports
+[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)meetingdetail
 
 ### 参数
 
