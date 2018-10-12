@@ -33,28 +33,26 @@
             "email": "test67@rfchina.com",
             "participants": [
                 {
-                    "uuid": "3f5a47d1-718e-4ce8-a20a-d22368a24310", 
-                    "meetingId": "1806697677",
-                    "name": "Taiyuan-rf",
-                    "joinTime": "2018-04-02 10:32:33",       //参会人入会时间
-                    "leaveTime": "2018-04-02 11:16:49",      //参会人离开时间
-                    "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
+                    "leave_time": "2018-08-13 17:30:22", //离开会议时间
+                    "meeting_id": 1371517030,
+                    "name": "杨雪鑫",
+                    "meeting_uuid": "4XoNt04WQkWm5OAAAX2cQg==",
+                    "join_time": "2018-08-13 16:18:41"  //加入会议时间
+                },
+                
+                {
+                    "leave_time": "2018-08-13 17:19:45",
+                    "meeting_id": 1371517030,
+                    "name": "詹杨信一",
+                    "meeting_uuid": "4XoNt04WQkWm5OAAAX2cQg==",
+                    "join_time": "2018-08-13 16:35:41"
                 },
                 {
-                    "uuid": "464d5b0d-31a7-4d66-bd71-8fef73f75b59",
-                    "meetingId": "1806697677",
-                    "name": "hohhot",
-                    "joinTime": "2018-04-02 10:32:36",
-                    "leaveTime": "2018-04-02 11:17:01",
-                    "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
-                },
-                {
-                    "uuid": "feb5901a-43cd-4e8c-96ad-051f76bd9cd6",
-                    "meetingId": "1806697677",
-                    "name": "Administrator",
-                    "joinTime": "2018-04-02 10:38:07",
-                    "leaveTime": "2018-04-02 11:17:03",
-                    "meetingUuid": "Ov8vv4PiR/mYW3Px8NuJVg=="
+                    "leave_time": "2018-08-13 17:29:26",
+                    "meeting_id": 1371517030,
+                    "name": "蔡琼",
+                    "meeting_uuid": "4XoNt04WQkWm5OAAAX2cQg==",
+                    "join_time": "2018-08-13 16:55:51"
                 }
             ]
         }
