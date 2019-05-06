@@ -20,7 +20,6 @@
 | password | 否 | String | 会议密码 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 | mute\_upon\_entry | 否 | String | true:入会时静音，false:入会时不静音 |
-| test |  |  |  |
 
 ### 响应
 
