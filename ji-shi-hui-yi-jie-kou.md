@@ -17,6 +17,7 @@
 | duration | 否 | Integer | 会议持续时间，以分钟为单位 |
 | password | 否 | String |  |
 | host\_id | 是 | String | 个人账号所对应hostId |
+| mute\_upon\_entry | 否 | String | true:入会时静音，false: 入会时不静音 |
 
 ### 响应
 

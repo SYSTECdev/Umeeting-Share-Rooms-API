@@ -19,6 +19,7 @@
 | option\_jbh | 否 | String | 允许主持人入会前加入会议，true/false，true为允许，false为不允许 |
 | password | 否 | String | 会议密码 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
+| mute\_upon\_entry | 否 | String | true:入会时静音，false:入会时不静音 |
 
 ### 响应
 
@@ -32,7 +33,8 @@
         "meeting_id": "1770498237",                //会议号  
         "start_time": "7",                         //会议开始时间   
         "host_id": "8Eki6-0R7eVsdg-mH4y7A",        //主持人hostId
-        "token": "fTlrrST1Ve8iLAMM0NCQXVvaVlTM3M9" //开始会议token
+        "token": "fTlrrST1Ve8iLAMM0NCQXVvaVlTM3M9", //开始会议token
+        "mute_upon_entry": "true"
     }
 }
 ```
