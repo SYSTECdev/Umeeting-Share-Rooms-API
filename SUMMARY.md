@@ -22,6 +22,7 @@
   * [3、历史会议列表接口](hui-yi-tong-ji-api/43001-li-shi-hui-yi-xiang-qing-lie-biao.md)
   * [4、会议详细信息接口（包括参会人）](hui-yi-tong-ji-api/33001-gong-gong-hui-yi-shi-hui-yi-bao-biao-xiang-qing-jie-kou.md)
   * [5、历史会议会议总时长接口](hui-yi-tong-ji-api/53001-li-shi-hui-yi-hui-yi-zong-shi-chang-ff08-gen-ju-hui-yi-hao-tong-ji-ff09.md)
+  * [6、会议统计报表](hui-yi-tong-ji-api/hui-yi-tong-ji.md)
 * [四、个人账号会议管理API](ge-ren-zhang-hao-hui-yi-api.md)
   * [1、个人账号预约会议接口](yu-yue-hui-yi-jie-kou.md)
   * [3、个人账号即时会议接口](ji-shi-hui-yi-jie-kou.md)
