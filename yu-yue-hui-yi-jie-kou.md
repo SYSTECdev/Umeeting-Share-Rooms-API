@@ -30,7 +30,8 @@
         "meeting_id": "1825940376",   //会议号
         "join_url": "",               //入会链接
         "host_id": "8Eki",            //主持人hostId
-        "token": "jgkjgkjaae"         //开始会议token
+        "token": "jgkjgkjaae",         //开始会议token
+        "ready_time": 15              // 提前入会时间
     }
 }
 ```

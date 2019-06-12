@@ -34,7 +34,8 @@
         "start_time": "7",                          //会议开始时间   
         "host_id": "8Eki6-0R7eVsdg-mH4y7A",         //主持人hostId
         "token": "fTlrrST1Ve8iLAMM0NCQXVvaVlTM3M9", //开始会议token
-        "mute_upon_entry": "true"
+        "mute_upon_entry": "true",
+        "ready_time": 15                            //提前入会时间
     }
 }
 ```
