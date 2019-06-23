@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com](https://api.systeccloud.com/umeeting/share/schedule)/share/resetCapacity/{meetingId}
+[https://api.systeccloud.com](https://api.systeccloud.com/umeeting/share/schedule)/umeeting/share/resetCapacity/{meetingId}
 
 ### 参数
 
