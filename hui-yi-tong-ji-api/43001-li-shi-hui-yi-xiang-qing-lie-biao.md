@@ -37,7 +37,8 @@
             "has_3rd_party_audio": false,
             "has_video": false,
             "has_screen_share": false,
-            "recording": 0
+            "recording": 0,
+            "meeting_capacity": 10
         },
         {
             "uuid": "tIEAQbEIQz6t7rzwAcJ04g==",
@@ -54,7 +55,8 @@
             "has_3rd_party_audio": false,
             "has_video": false,
             "has_screen_share": false,
-            "recording": 0
+            "recording": 0,
+            "meeting_capacity": 25
         }
     }
 ```
