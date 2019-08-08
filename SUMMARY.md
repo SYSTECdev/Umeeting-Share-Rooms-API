@@ -17,6 +17,7 @@
   * [1、会议室监控（监控api预约）](hui-yi-jian-kong-api/hui-yi-shi-jian-kong.md)
   * [2、会议详情（包括参会人员信息）](hui-yi-jian-kong-api/23001-hui-yi-xiang-qing-ff08-bao-kuo-can-hui-ren-yuan-xin-xi-ff09.md)
   * [3、空闲会议室查询接口](hui-yi-guan-li-api/103001-kong-yu-hui-yi-shi-cha-xun.md)
+  * [4、查询许可](hui-yi-jian-kong-api/cha-xun-xu-ke.md)
 * [三、会议统计API](hui-yi-tong-ji-api.md)
   * [1、公共会议室明细统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-ming-xi-tong-ji-jie-kou.md)
   * [2、公共会议室汇总统计接口](hui-yi-tong-ji-api/gong-gong-hui-yi-shi-hui-zong-tong-ji-jie-kou.md)
