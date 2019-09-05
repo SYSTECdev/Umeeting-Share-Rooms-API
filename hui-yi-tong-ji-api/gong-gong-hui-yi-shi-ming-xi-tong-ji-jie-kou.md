@@ -14,7 +14,6 @@
 | api\_secret | 是 | String | API secret |
 | from | 否 | String | 统计起始时间，默认为当天（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
 | to | 否 | String | 统计结束时间，默认为当天（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
-| uuid | 否 | String | 记录ID，如果没有指定，则查询所有会议记录 |
 | host\_id | 否 | String | 公共会议室ID，如果没有指定，则查询所有公共会议室的明细信息 |
 | show\_participants | 否 | Boolean | 显示会议参会者信息，默认为false |
 | show\_telephony\_usage | 否 | Boolean | 显示电话参会者信息，默认为false |
