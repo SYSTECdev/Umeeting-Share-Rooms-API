@@ -18,6 +18,9 @@
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 | duration | 否 | Integer | 会议持续时间，以分钟为单位，必须大于30 |
 | mute\_upon\_entry | 否 | String | true: 入会时静音，false：入会时不静音 |
+| use\_pmi | 否 | String | true/false ,使用个人会议号（特定条件） |
+| option\_host\_video | 否 | String | true/false |
+| option\_participants\_video | 否 | String | true/false |
 
 ### 响应
 
