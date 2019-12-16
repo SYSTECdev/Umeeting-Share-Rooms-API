@@ -20,6 +20,9 @@
 | password | 否 | String | 会议密码 |
 | user\_key | 否 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过200字节 |
 | mute\_upon\_entry | 否 | String | true:入会时静音，false:入会时不静音 |
+| use\_pmi | 否 | String | true/false使用个人会议号预约（特殊条件，需要有特定的账号） |
+| option\_host\_video | 否 | String | true/false |
+| option\_participants\_video | 否认 | String | true/false |
 
 ### 响应
 
