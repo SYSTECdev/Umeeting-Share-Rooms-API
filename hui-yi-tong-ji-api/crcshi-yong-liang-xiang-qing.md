@@ -49,26 +49,25 @@
                 ...
         },
         {
-            "id": "",
-            "user_id": "50343936",
-            "user_name": "河南信息部-陈亚辉",
-            "device": "Windows",
-            "ip_address": "125.46.15.26",
-            "cn": "CN",
-            "city": "Zhengzhou",
-            "network_type": "有线",
-            "join_time": "2019-12-20T02:28:11Z",
-            "leave_time": "2019-12-20T02:28:19Z",
-            "share_application": false,
-            "share_desktop": false,
-            "share_whiteboard": false,
-            "recording": false
+            "date_time": "2019-12-02",
+            "crc_ports_hour_usage": [
+                {
+                    "hour": "00",
+                    "max_usage": 1,
+                    "total_usage": 1
+                },
+                {
+                    "hour": "01",
+                    "max_usage": 11,
+                    "total_usage": 13
+                },
+                ...
+                ...
+                ...
         }
     ]
 }
 ```
-
-
 
 
 
