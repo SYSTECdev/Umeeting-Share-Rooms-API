@@ -73,7 +73,6 @@
                     "max_usage": 1,
                     "total_usage": 4
                 }]
-
         }
     ]
 }
