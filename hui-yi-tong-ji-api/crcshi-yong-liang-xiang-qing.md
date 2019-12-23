@@ -1,10 +1,10 @@
-# 获取会议与会者详情
+# CRC使用量详情
 
 ---
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)participants
+[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)crcUsage
 
 ### 参数
 
@@ -12,7 +12,8 @@
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
-| uuid | 是 | String | 会议uuid（可以从历史会议列表接口里获取） |
+| from | 是 | String | yyyy-MM-dd |
+| to | 是 | String | yyyy-MM-dd \(如果要查询12-01，那么from就是12-01to就要为12-02） |
 
 ### 响应
 
