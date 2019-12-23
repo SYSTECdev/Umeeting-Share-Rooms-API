@@ -26,7 +26,7 @@
     "message": "OK",
     "data": [
         {
-            "date_time": "2019-12-01",
+            "date_time": "2019-12-01", //日期
             "crc_ports_hour_usage": [
                 {
                     "hour": "00",   // 00点时刻
