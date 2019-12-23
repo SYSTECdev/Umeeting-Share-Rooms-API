@@ -25,7 +25,7 @@
             "id": "",
             "user_id": "50342912",
             "user_name": "华润内蒙古医药",
-            "device": "Windows",
+            "device": "iOS",
             "ip_address": "110.16.71.150",
             "cn": "CN",
             "city": "Baotou",
@@ -55,9 +55,6 @@
         }
     ]
 }
-
-
-
 ```
 
 
