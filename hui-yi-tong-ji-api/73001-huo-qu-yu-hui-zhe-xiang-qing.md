@@ -31,7 +31,7 @@
             "city": "Baotou",
             "network_type": "有线",
             "join_time": "2019-12-20T02:13:18Z",  （UTC格式）
-            "leave_time": "2019-12-20T02:28:19Z",  （UTC个天使）
+            "leave_time": "2019-12-20T02:28:19Z",  （UTC格式）
             "share_application": false,
             "share_desktop": false,
             "share_whiteboard": false,
