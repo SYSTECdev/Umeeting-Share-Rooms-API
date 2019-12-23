@@ -29,9 +29,9 @@
             "date_time": "2019-12-01",
             "crc_ports_hour_usage": [
                 {
-                    "hour": "00",
-                    "max_usage": 0,
-                    "total_usage": 0
+                    "hour": "00",   // 00点时刻
+                    "max_usage": 0, // 最大使用量
+                    "total_usage": 0 // 总使用量
                 },
                 {
                     "hour": "01",
