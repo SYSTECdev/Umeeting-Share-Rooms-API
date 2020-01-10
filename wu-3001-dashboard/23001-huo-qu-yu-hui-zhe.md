@@ -1,4 +1,4 @@
-# 获取会议与会者详情
+# 获取会议与会者详情（在线，结束的）
 
 ---
 
@@ -13,6 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | uuid | 是 | String | 会议uuid（可以从历史会议列表接口里获取） |
+| type | 否 | String | live—在线，past—结束\( |
 
 ### 响应
 
