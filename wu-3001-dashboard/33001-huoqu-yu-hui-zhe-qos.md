@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/metrics/participants
+[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/metrics/participants/qos
 
 ### 参数
 
