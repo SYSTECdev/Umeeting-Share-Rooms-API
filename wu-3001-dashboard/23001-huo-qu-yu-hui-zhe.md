@@ -29,8 +29,8 @@
             "ip_address": "58.220.110.106",
             "location": "Nanjing (CN)",
             "network_type": "Wifi",
-            "join_time": "2020-01-10T01:09:02Z",
-            "leave_time": "2020-01-10T01:52:26Z",
+            "join_time": "2020-01-10T01:09:02Z",                                     （注意这里是UTC格式）
+            "leave_time": "2020-01-10T01:52:26Z",                                    （注意这里是UTC格式）
             "share_application": false,
             "share_desktop": false,
             "share_whiteboard": false,
