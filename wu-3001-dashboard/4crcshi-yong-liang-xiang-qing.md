@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)crcUsage
+[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/metrics/crcUsage
 
 ### 参数
 
