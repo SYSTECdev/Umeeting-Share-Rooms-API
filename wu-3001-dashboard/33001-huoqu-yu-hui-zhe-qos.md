@@ -14,6 +14,7 @@
 | api\_secret | 是 | String | API secret |
 | uuid | 是 | String | 会议uuid（可以会议详情列表接口里获取） |
 | type | 否 | String | live—在线（默认），past—结束 |
+| user\_id | 是 | String | 该参数是Dashboard中获取与会者接口中返回的user\_id |
 
 ### 响应
 
