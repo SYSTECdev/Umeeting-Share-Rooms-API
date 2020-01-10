@@ -24,41 +24,122 @@
     "message": "OK",
     "data": [
         {
-            "user_id": "16778240",
-            "user_name": "扬州万象汇推广部徐伟",
-            "device": "Windows",
-            "ip_address": "58.220.110.106",
-            "location": "Nanjing (CN)",
-            "network_type": "Wifi",
-            "join_time": "2020-01-10T01:09:02Z",                                     （注意这里是UTC格式）
-            "leave_time": "2020-01-10T01:52:26Z",                                    （注意这里是UTC格式）
-            "share_application": false,
-            "share_desktop": false,
-            "share_whiteboard": false,
-            "recording": false,
-            "pc_name": "",
-            "domain": "",
-            "mac_addr": "",
-            "harddisk_id": "",
-            "version": "4.3.47204.0325"
+            "date_time": "2020-01-10T07:56:00Z",
+            "audio_input": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": ""
+            },
+            "audio_output": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": ""
+            },
+            "video_input": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": "",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "video_output": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": "",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "as_input": {
+                "bitrate": "138 kbps",
+                "latency": "10 ms",
+                "jitter": "615 ms",
+                "avg_loss": "0.0%",
+                "max_loss": "0.0%",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "as_output": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": "",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "cpu_usage": {
+                "zoom_min_cpu_usage": "3%",
+                "zoom_avg_cpu_usage": "3%",
+                "zoom_max_cpu_usage": "6%",
+                "system_max_cpu_usage": "72%"
+            }
         },
         {
-            "user_id": "16788480",
-            "user_name": "POLYCOM RMX 2000A",
-            "device": "H.323/SIP",
-            "ip_address": "218.13.52.59",
-            "location": "Guangzhou (CN)",
-            "network_type": "其他",
-            "join_time": "2020-01-10T01:55:01Z",
-            "share_application": false,
-            "share_desktop": false,
-            "share_whiteboard": false,
-            "recording": false,
-            "pc_name": "",
-            "domain": "",
-            "mac_addr": "",
-            "harddisk_id": "",
-            "version": "4.1.4814.1203|H323"
+            "date_time": "2020-01-10T07:57:00Z",
+            "audio_input": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": ""
+            },
+            "audio_output": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": ""
+            },
+            "video_input": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": "",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "video_output": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": "",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "as_input": {
+                "bitrate": "72 kbps",
+                "latency": "11 ms",
+                "jitter": "391 ms",
+                "avg_loss": "0.0%",
+                "max_loss": "0.0%",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "as_output": {
+                "bitrate": "",
+                "latency": "",
+                "jitter": "",
+                "avg_loss": "",
+                "max_loss": "",
+                "resolution": "",
+                "frame_rate": ""
+            },
+            "cpu_usage": {
+                "zoom_min_cpu_usage": "3%",
+                "zoom_avg_cpu_usage": "4%",
+                "zoom_max_cpu_usage": "6%",
+                "system_max_cpu_usage": "51%"
+            }
         }
     ]
 }
