@@ -82,6 +82,9 @@
                 "system_max_cpu_usage": "72%"
             }
         },
+        .....
+        .....
+        .....
         {
             "date_time": "2020-01-10T07:57:00Z",
             "audio_input": {
@@ -141,7 +144,7 @@
                 "system_max_cpu_usage": "51%"
             }
         }
- 
+
     ]
 }
 ```
