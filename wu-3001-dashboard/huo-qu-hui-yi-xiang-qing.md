@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/share/hisMeetin](https://api.systeccloud.com/umeeting/share/meetingTime)g
+[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/meetingTime)/metrics/meetings
 
 ### 参数
 
@@ -14,6 +14,7 @@
 | api\_secret | 是 | String | API secret |
 | from | 是 | String | 标准格式时间 "2018-01-01"（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
 | to | 是 | String | 标准格式时间 “2018-01-01”（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
+| type | 否 | String | live—在线，past—结束（默认在线） |
 
 ### 响应
 
@@ -23,42 +24,45 @@
     "message": "OK",
     "data": [
         {
-            "uuid": "hVew/yBeQamdZXVVQBvNhQ==",
-            "id": 1525647127,
-            "host": "富力 ",
-            "email": "test19@rfchina.com",
-            "user_type": "Corp",
-            "start_time": "2018-04-01 05:33:22",
-            "end_time": "2018-04-01 08:18:45",
-            "duration": 166,
-            "participants": 3,
+            "uuid": "mzejqFKBR/Oz0a46oSvqtg==",
+            "id": 1317246759,
+            "topic": "工程部_李冬的网络会议",
+            "host": "公共会议室 ",
+            "email": "umeetingTest1561618892948@systec.com.cn",
+            "user_type": "企业用户",
+            "start_time": "2019-09-01T00:54:50Z",
+            "end_time": "2019-09-01T04:49:58Z",
+            "duration": "03:55:08",
+            "participants": 25,
             "has_pstn": false,
-            "has_voip": false,
+            "has_voip": true,
             "has_3rd_party_audio": false,
-            "has_video": false,
-            "has_screen_share": false,
-            "recording": 0,
-            "meeting_capacity": 10
+            "has_video": true,
+            "has_screen_share": true,
+            "has_recording": true,
+            "has_sip": false
         },
         {
-            "uuid": "tIEAQbEIQz6t7rzwAcJ04g==",
-            "id": 1526598269,
-            "host": "富力 ",
-            "email": "test70@rfchina.com",
-            "user_type": "Corp",
-            "start_time": "2018-04-02 00:40:24",
-            "end_time": "2018-04-02 06:02:36",
-            "duration": 323,
-            "participants": 12,
+            "uuid": "1qEvuDkAROapbbbcNUxEyA==",
+            "id": 1550404564,
+            "topic": "合约部",
+            "host": "公共会议室 ",
+            "email": "umeetingTest1561616116190@systec.com.cn",
+            "user_type": "企业用户",
+            "start_time": "2019-09-02T01:19:38Z",
+            "end_time": "2019-09-02T01:21:03Z",
+            "duration": "01:25",
+            "participants": 2,
             "has_pstn": false,
-            "has_voip": false,
+            "has_voip": true,
             "has_3rd_party_audio": false,
-            "has_video": false,
+            "has_video": true,
             "has_screen_share": false,
-            "recording": 0,
-            "meeting_capacity": 25
+            "has_recording": false,
+            "has_sip": false
         }
-    }
+    ]
+}
 ```
 
 
