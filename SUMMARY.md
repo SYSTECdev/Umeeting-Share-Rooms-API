@@ -39,4 +39,5 @@
   * [9、绑定个人账号接口](bang-ding-ge-ren-zhang-hao.md)
 * [五、Dashboard](wu-3001-dashboard.md)
   * [1、获取会议详情](wu-3001-dashboard/huo-qu-hui-yi-xiang-qing.md)
+  * [2、获取与会者](wu-3001-dashboard/23001-huo-qu-yu-hui-zhe.md)
 

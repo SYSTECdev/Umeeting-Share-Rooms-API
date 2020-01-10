@@ -30,8 +30,8 @@
             "host": "公共会议室 ",
             "email": "umeetingTest1561618892948@systec.com.cn",
             "user_type": "企业用户",
-            "start_time": "2019-09-01T00:54:50Z",
-            "end_time": "2019-09-01T04:49:58Z",
+            "start_time": "2019-09-01T00:54:50Z",                           （注意：这里是UTC格式）
+            "end_time": "2019-09-01T04:49:58Z",                             （注意：这里是UTC格式）  
             "duration": "03:55:08",
             "participants": 25,
             "has_pstn": false,
