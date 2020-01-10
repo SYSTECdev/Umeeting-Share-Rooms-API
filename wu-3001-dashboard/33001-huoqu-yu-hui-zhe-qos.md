@@ -24,7 +24,7 @@
     "message": "OK",
     "data": [
         {
-            "date_time": "2020-01-10T07:56:00Z",
+            "date_time": "2020-01-10T07:56:00Z",                                       （注意这里是UTC格式）
             "audio_input": {
                 "bitrate": "",
                 "latency": "",
