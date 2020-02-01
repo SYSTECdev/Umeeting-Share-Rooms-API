@@ -4,7 +4,7 @@
 
 ### URL
 
-[https://api.systeccloud.com/umeeting/user/](https://api.systeccloud.com/umeeting/share/schedule)binding
+[https://api.systeccloud.com/umeeting/user/](https://api.systeccloud.com/umeeting/share/schedule)delete
 
 ### 参数
 
@@ -13,7 +13,6 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | email | 是 | String | 账号邮箱 |
-| password | 是 | String | 密码 |
 
 ### 响应
 
