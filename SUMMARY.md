@@ -35,6 +35,7 @@
   * [7、个人账号在线会议列表接口](zai-xian-hui-yi-lie-biao.md)
   * [8、个人账号历史会议列表接口](li-shi-hui-yi-lie-biao.md)
   * [9、绑定个人账号接口](bang-ding-ge-ren-zhang-hao.md)
+  * [10、删除个人账号](103001-shan-chu-ge-ren-zhang-hao.md)
 * [五、Dashboard](wu-3001-dashboard.md)
   * [1、获取会议详情列表](wu-3001-dashboard/huo-qu-hui-yi-xiang-qing.md)
   * [2、获取与会者](wu-3001-dashboard/23001-huo-qu-yu-hui-zhe.md)
