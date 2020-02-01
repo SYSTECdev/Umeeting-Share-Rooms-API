@@ -18,6 +18,7 @@
 | password | 否 | String |  |
 | host\_id | 是 | String | 个人账号所对应hostId |
 | mute\_upon\_entry | 否 | String | true:入会时静音，false: 入会时不静音 |
+| webinar | 否 | String | "true": 为网络研讨会，“false": 网络会议，默认false |
 
 ### 响应
 
