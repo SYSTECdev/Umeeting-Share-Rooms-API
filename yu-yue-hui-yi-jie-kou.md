@@ -31,7 +31,8 @@
         "join_url": "",               //入会链接
         "host_id": "8Eki",            //主持人hostId
         "token": "jgkjgkjaae",         //开始会议token
-        "ready_time": 15              // 提前入会时间
+        "ready_time": 15,              // 提前入会时间
+        "start_url": ""                // 开始会议的url
     }
 }
 ```
