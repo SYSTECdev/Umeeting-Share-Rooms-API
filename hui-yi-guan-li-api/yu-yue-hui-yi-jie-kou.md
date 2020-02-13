@@ -23,6 +23,7 @@
 | use\_pmi | 否 | String | true/false使用个人会议号预约（特殊条件，需要有特定的账号） |
 | option\_host\_video | 否 | String | true/false |
 | option\_participants\_video | 否 | String | true/false |
+| recording | 否 | String | "cloud"-表示云端录制，“none"-表示不录制 |
 
 ### 响应
 
