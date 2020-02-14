@@ -24,7 +24,7 @@
     "data": [
         {
             "id": "cc8bc310-4bcb-42d3-bf35-2f2ef01f9be4",
-            "meeting_id": "Jn5K/PTATp+WjU071OuceA==",
+            "meeting_id": "Jn5K/PTATp+WjU071OuceA==",                        // 会议uuid
             "recording_start": "2020-02-13T09:28:41Z",
             "recording_end": "2020-02-13T09:30:34Z",
             "file_type": "MP4",
