@@ -21,6 +21,7 @@
 | use\_pmi | 否 | String | true/false ,使用个人会议号（特定条件） |
 | option\_host\_video | 否 | String | true/false |
 | option\_participants\_video | 否 | String | true/false |
+| recording | 否 | String | "cloud"-云端录制，“none"-不录制，默认不录制 |
 
 ### 响应
 
