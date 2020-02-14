@@ -13,7 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | start\_time | 是 | String | 标准格式时间 如“2020-02-02 14:25:12” |
-| meeting\_id | 是 | String | 用户身份自定义信息，用于标识预约会议用户身份，不能超过两百个字节 |
+| meeting\_id | 是 | String | 这里可以是会议号，也可以是会议记录的uuid（一场会议里面可能有多条会议记录，每天会议记录都会有唯一的uuid） |
 
 ### 响应
 
