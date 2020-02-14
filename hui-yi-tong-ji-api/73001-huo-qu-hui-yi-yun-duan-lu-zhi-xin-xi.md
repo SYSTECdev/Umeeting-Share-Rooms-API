@@ -29,8 +29,8 @@
             "recording_end": "2020-02-13T09:30:34Z",
             "file_type": "MP4",
             "file_size": 2748588,
-            "play_url": "https://umeetingdev.systeccloud.com/recording/play/5MoKVVAxj3yen1wP8kh3YSxt4BJBSDrr29jrovwDamAL-yBcqI2YTbNvLK8h6exW",
-            "download_url": "https://umeetingdev.systeccloud.com/recording/download/5MoKVVAxj3yen1wP8kh3YSxt4BJBSDrr29jrovwDamAL-yBcqI2YTbNvLK8h6exW",
+            "play_url": "https://umeetingdev.systeccloud.com/recording/play/5MoKVVAxj3yen1wP8kh3YSxt4BJBSDrr29jrovwDamAL-yBcqI2YTbNvLK8h6exW",            // 播放地址
+            "download_url": "https://umeetingdev.systeccloud.com/recording/download/5MoKVVAxj3yen1wP8kh3YSxt4BJBSDrr29jrovwDamAL-yBcqI2YTbNvLK8h6exW",    // 下载地址
             "status": "completed"
         },
         {
