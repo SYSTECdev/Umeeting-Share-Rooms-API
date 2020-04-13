@@ -22,6 +22,7 @@
 | option\_host\_video | 否 | String | true/false |
 | option\_participants\_video | 否 | String | true/false |
 | recording | 否 | String | "cloud"-云端录制，“none"-不录制，默认不录制 |
+| allow\_live\_streaming | 否 | String | "true"-开启直播推流，“false"-关闭直播推流 |
 
 ### 响应
 

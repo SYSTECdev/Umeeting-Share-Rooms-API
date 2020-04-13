@@ -52,7 +52,7 @@
            gK2bzh6kZUXcEhmuvUOsofJs",                 // start_url，慎用
        "play_addr": "http://p2.weizan.cn/79555295/132312377802785197/live.m3u8",
        "watch_url": "https://wx.vzan.com/live/tvchat-1590377657?ver=637223897808876626"
-       
+
     }
 }
 ```
