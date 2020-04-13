@@ -22,7 +22,7 @@
 | option\_host\_video | 否 | String | true/false |
 | option\_participants\_video | 否 | String | true/false |
 | recording | 否 | String | "cloud"-云端录制，“none"-不录制，默认不录制 |
-| allow\_live\_streaming | 否 | String | "true"-开启直播推流，“false"-关闭直播推流 |
+| allow\_live\_streaming | 否 | String | "true"-开启直播推流，“false"-关闭直播推流（ |
 
 ### 响应
 
@@ -55,7 +55,9 @@
            xpTmpjNVpXVmpPV00yWmpBek9XTTNOR0U1WlRKbU4yRTNPVEZsWldRNU1ESXhPRE5oTmpZMVlUSmlPR1UyTURW
            ak5qZzRNRE5tTndBTU0wTkNRWFZ2YVZsVE0zTTlBQUp6ZVEiLCJleHAiOjE1ODUxMzIzNzcsImlhdCI6MTU4NTE
            yNTE3NywiYWlkIjoiUkZVaVFOVUtRVG0tbXFfcHNCeFludyIsImNpZCI6IiJ9.-qzrBzHf66b06ruZpt4
-           gK2bzh6kZUXcEhmuvUOsofJs"                 // start_url，慎用
+           gK2bzh6kZUXcEhmuvUOsofJs",                 // start_url，慎用
+       "play_addr": "http://p2.weizan.cn/79555295/132312377802785197/live.m3u8",
+       "watch_url": "https://wx.vzan.com/live/tvchat-1590377657?ver=637223897808876626"
 
     }
 }
