@@ -1,8 +1,4 @@
-# 即时会议接口（会议开始30分钟后，如果系统检测到该会议没有参会者人进入，系统将删除该会议，释放会议室资源）
-
----
-
-### URL
+# 即时会议接口URL
 
 [https://api.systeccloud.com/umeeting/share/instant](https://api.systeccloud.com/umeeting/share/schedule)
 
