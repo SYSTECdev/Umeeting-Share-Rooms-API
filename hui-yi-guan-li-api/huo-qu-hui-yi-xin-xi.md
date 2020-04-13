@@ -32,8 +32,8 @@
         "id": "1574054185",                 //会议号
         "status": "0",                      //会议状态 0 已预约 1 会议进行中 2 已取消 3 已结束 
         "allow_live_streaming": "true",
-        "play_addr": "http://p2.weizan.cn/79555295/132312361257166751/live.m3u8"",
-        "watch_url": "https://wx.vzan.com/live/tvchat-315528467?ver=637223881258260609"
+        "play_addr": "http://p2.weizan.cn/79555295/132312361257166751/live.m3u8"",        //视频地址
+        "watch_url": "https://wx.vzan.com/live/tvchat-315528467?ver=637223881258260609"   //观看地址
     }
 }
 ```
