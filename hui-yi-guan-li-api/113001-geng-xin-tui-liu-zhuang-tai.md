@@ -12,7 +12,7 @@
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
-| meeting\_capacity | 是 | int | 调整方数 |
+| action | 是 | String | "start"-开始推流，"stop"-结束推流 |
 
 ### 响应
 
