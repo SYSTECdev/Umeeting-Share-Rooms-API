@@ -13,6 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | action | 是 | String | "start"-开始推流，"stop"-结束推流 |
+| id | 是 | String | 会议号 |
 
 ### 响应
 
