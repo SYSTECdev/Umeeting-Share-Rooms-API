@@ -14,6 +14,7 @@
   * [9、获取会议Token接口](hui-yi-guan-li-api/huo-qu-hui-yi-token-jie-kou.md)
   * [10、调整会议方数](hui-yi-guan-li-api/diao-zheng-hui-yi-fang-shu.md)
   * [11、更新推流状态](hui-yi-guan-li-api/113001-geng-xin-tui-liu-zhuang-tai.md)
+  * [12、获取主持人入会连接](hui-yi-guan-li-api/123001-huo-qu-zhu-chi-ren-ru-hui-lian-jie.md)
 * [二、公共会议室监控API](hui-yi-jian-kong-api.md)
   * [1、会议室监控（监控api预约）](hui-yi-jian-kong-api/hui-yi-shi-jian-kong.md)
   * [2、会议详情（包括参会人员信息）](hui-yi-jian-kong-api/23001-hui-yi-xiang-qing-ff08-bao-kuo-can-hui-ren-yuan-xin-xi-ff09.md)
