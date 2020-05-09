@@ -19,6 +19,8 @@
 | option\_participants\_video | 否 | String | true/false |
 | recording | 否 | String | "cloud"-云端录制，“none"-不录制，默认不录制 |
 | allow\_live\_streaming | 否 | String | "true"-开启直播推流，“false"-关闭直播推流（ |
+| host\_name | 否 | String | 主持人名称 |
+| waiting\_room | 否 | String | "true"-与会者入会时需要主持人允许后才能入会，“false"-与会者入会时不需要主持人的允许便可加入会议 |
 
 ### 响应
 
