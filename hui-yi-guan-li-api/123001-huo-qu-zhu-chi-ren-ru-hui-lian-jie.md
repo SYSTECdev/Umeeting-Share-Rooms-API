@@ -6,7 +6,7 @@
 
 ### URL {#url}
 
-[https://{apiHost}/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)getStartUrl
+[https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)getStartUrl
 
 ### 参数 {#参数}
 
