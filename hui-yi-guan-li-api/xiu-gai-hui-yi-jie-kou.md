@@ -14,7 +14,6 @@
 | api\_secret | 是 | String | API secret |
 | id | 是 | String | 会议号 |
 | topic | 否 | String | 会议主题 |
-| option\_jbh | 否 | String | 允许主持人入会前加入会议，true/false，true为允许，false为不允许 |
 | start\_time | 是 | String | 会议开始时间，yyyy-MM-dd  HH:mm:ss |
 | duration | 是 | Integer | 会议持续时间（分钟） |
 | password | 否 | String | 会议密码 |
@@ -22,6 +21,8 @@
 | mute\_upon\_entry | 否 | String | true: 入会时静音，false: 入会时不静音 |
 | recording | 否 | String | "cloud"-云端录制，”none"-不录制，默认不录制 |
 | allow\_live\_streaming | 否 | String | "true"-开启直播推流，”false"-关闭直播推流（默认"false"） |
+| host\_name | 否 | String | 主持人名称 |
+| waiting\_room | 否 | String | "true"-与会者入会时需要主持人允许后才能入会，“false"-与会者入会时不需要主持人的允许便可加入会议 |
 
 ### 响应
 
