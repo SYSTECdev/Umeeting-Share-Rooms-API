@@ -19,6 +19,28 @@
     "status" : 200,  // 状态码，200为成功，其他值为失败
     "message" : "OK" // 本次请求结果信息，如果为错误时，即为详细的错误信息
      "data": {
+        "occurrences": [                      // 周期性会议
+            {
+                "start_time": "2020-05-18 15:00:00",
+                "uuid": "3mv9ja4i3xm1duop495mzy=="
+            },
+            {
+                "start_time": "2020-05-19 15:00:00",
+                "uuid": "y5arrbltdrhr9b5xwlbbo3=="
+            },
+            {
+                "start_time": "2020-05-20 15:00:00",
+                "uuid": "3m7z72lklzg7bz25tudbki=="
+            },
+            {
+                "start_time": "2020-05-21 15:00:00",
+                "uuid": "mhxbomci9xtphsjndir5j6=="
+            },
+            {
+                "start_time": "2020-05-22 15:00:00",
+                "uuid": "pqv62tr7x9qoheu3jg3w7e=="
+            }
+        ],
         "duration": "50",                   //会议时长
         "start_time": "2018-04-26 15:00:00",//开始时间
         "del_flag": "0",                    //删除标志 0 正常 1 已删除            
