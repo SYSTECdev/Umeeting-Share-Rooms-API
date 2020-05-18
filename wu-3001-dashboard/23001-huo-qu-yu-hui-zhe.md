@@ -1,12 +1,10 @@
-# 获取会议与会者详情（在线，结束的）
+# 2、获取与会者
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/metrics/participants
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -15,9 +13,9 @@
 | uuid | 是 | String | 会议uuid（可以会议详情列表接口里获取） |
 | type | 否 | String | live—在线（默认），past—结束 |
 
-### 响应
+## 响应
 
-```js
+```javascript
 {
     "status": 200,
     "message": "OK",
@@ -64,6 +62,4 @@
     ]
 }
 ```
-
-
 

@@ -1,12 +1,10 @@
-# 历史会议查询接口
+# 8、历史会议查询接口
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting/share/history](https://api.systeccloud.com/umeeting/share/schedule)
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -16,9 +14,9 @@
 | page\_size | 否 | Integer | 分页显示，每页大小，不指定时默认为30 |
 | page\_number | 否 | Integer | 分页显示，第几页，不指定时默认为1 |
 
-### 响应
+## 响应
 
-```js
+```javascript
 {
     "status" : 200,                               // 状态码，200为成功，其他值为失败
     "message" : "OK",                             // 本次请求结果信息，如果为错误时，即为详细的错误信息
@@ -41,6 +39,4 @@
     }
 }
 ```
-
-
 

@@ -1,12 +1,10 @@
-# 获取会议详情列表（在线，结束）
+# 1、获取会议详情列表
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/meetingTime)/metrics/meetings
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -16,9 +14,9 @@
 | to | 是 | String | 标准格式时间 “2018-01-01”（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
 | type | 否 | String | live—在线（默认），past—结束 |
 
-### 响应
+## 响应
 
-```js
+```javascript
 {
     "status": 200,
     "message": "OK",
@@ -64,6 +62,4 @@
     ]
 }
 ```
-
-
 

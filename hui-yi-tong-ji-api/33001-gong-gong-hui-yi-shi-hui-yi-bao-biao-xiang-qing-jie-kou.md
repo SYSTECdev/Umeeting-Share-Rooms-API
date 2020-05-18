@@ -1,12 +1,10 @@
-# 会议详细信息接口（包括参会人）
+# 4、会议详细信息接口（包括参会人）
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting/share/](https://api.systeccloud.com/umeeting/share/schedule)meetingdetail
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -14,9 +12,9 @@
 | api\_secret | 是 | String | API secret |
 | uuid | 是 | String | "uuid":"tIEAQbEIQz6t7rzwAcJ04g==,aZESCNh6Qj2irKauQETyQQ==,Ov8vv4PiR/mYW3Px8NuJVg==" 多个会议UUID以 ”，“ 隔开 |
 
-### 响应
+## 响应
 
-```js
+```javascript
 {
     "status": 200,
     "message": "OK",
@@ -59,6 +57,4 @@
     ]
 }
 ```
-
-
 

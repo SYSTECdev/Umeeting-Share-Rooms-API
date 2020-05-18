@@ -1,12 +1,10 @@
-# 修改会议接口
+# 4、修改会议接口
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting/share/update](https://api.systeccloud.com/umeeting/share/schedule)
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -24,14 +22,12 @@
 | host\_name | 否 | String | 主持人名称 |
 | waiting\_room | 否 | String | "true"-与会者入会时需要主持人允许后才能入会，“false"-与会者入会时不需要主持人的允许便可加入会议 |
 
-### 响应
+## 响应
 
-```js
+```javascript
 {
     "status" : 200,  // 状态码，200为成功，其他值为失败
     "message" : "OK" // 本次请求结果信息，如果为错误时，即为详细的错误信息
 }
 ```
-
-
 

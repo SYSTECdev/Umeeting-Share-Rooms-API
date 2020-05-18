@@ -1,12 +1,10 @@
-# CRC使用量详情
+# 4、CRC使用量详情
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/metrics/crcUsage
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -15,13 +13,13 @@
 | from | 是 | String | yyyy-MM-dd |
 | to | 是 | String | yyyy-MM-dd \(to要大于from；如果要查询12-01，那么from就是12-01to就要为12-02） |
 
-### 响应
+## 响应
 
-```
+```text
 {
 ```
 
-```js
+```javascript
     "status": 200,
     "message": "OK",
     "data": [
@@ -77,6 +75,4 @@
     ]
 }
 ```
-
-
 

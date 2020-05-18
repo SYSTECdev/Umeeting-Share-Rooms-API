@@ -1,12 +1,10 @@
-# 历史会议详情接口（同一会议号多次开会，会有多条记录）
+# 3、历史会议列表接口
 
----
-
-### URL
+## URL
 
 [https://api.systeccloud.com/umeeting/share/hisMeetin](https://api.systeccloud.com/umeeting/share/meetingTime)g
 
-### 参数
+## 参数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -15,9 +13,9 @@
 | from | 是 | String | 标准格式时间 "2018-01-01"（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
 | to | 是 | String | 标准格式时间 “2018-01-01”（注意：查询时段不能超多一个月，超过一个月只能查询出最后一个月时段记录） |
 
-### 响应
+## 响应
 
-```js
+```javascript
 {
     "status": 200,
     "message": "OK",
@@ -60,6 +58,4 @@
         }
     }
 ```
-
-
 
