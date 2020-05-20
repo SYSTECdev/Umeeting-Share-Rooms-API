@@ -1,3 +1,7 @@
+---
+description: （如果会议是周期会议时，id如果传的是会议号则会结束整个周期系列的所有会议，如果传的是周期会议的uuid，则只会结束对应的会议记录）
+---
+
 # 5、结束会议接口
 
 ## URL
@@ -10,7 +14,7 @@
 | :--- | :--- | :--- | :--- |
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
-| id | 是 | String | 会议号 |
+| id | 是 | String | 会议号（或者会议uuid） |
 
 ## 响应
 
