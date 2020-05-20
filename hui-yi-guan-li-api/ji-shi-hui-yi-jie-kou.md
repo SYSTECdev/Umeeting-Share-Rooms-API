@@ -21,6 +21,13 @@
 | allow\_live\_streaming | 否 | String | "true"-开启直播推流，“false"-关闭直播推流（ |
 | host\_name | 否 | String | 主持人名称 |
 | waiting\_room | 否 | String | "true"-与会者入会时需要主持人允许后才能入会，“false"-与会者入会时不需要主持人的允许便可加入会议 |
+| recurrence\_type | 否 | Integer | 周期会议类型 1-按天，2-按周，3-按月 （非周期会议不传或者传""（空）\) |
+| daily\_type | 否 | Integer | （周期会议按天属性）1-每天，2-工作日 |
+| weekly\_days | 否 | String | \(周期会议按周属性）示例：“1，3”，表示每周1，3重复 |
+| monthly\_week | 否 | integer | \(周期会议按月属性）每个月的第几个星期（取值范围1-5），配合monthly\_week\_day使用，表示每个月的第几个星期的星期几 |
+| monthly\_week\_day | 否 | Integer | \(周期会议按月属性）每个月的某个星期的星期几（取值范围1-7），配合monthly\_week使用，表示每个月的第几个星期的星期几 |
+| monthly\_day | 否 | Integer | \(周期会议按月属性）每个月的几号重复（取值范围1-31），这个的优先值大于monthly\_week的设置，如果monthly\_week，monthly\_day同时存在，则以monthly\_day为主 |
+|  |  |  |  |
 
 ## 响应
 
