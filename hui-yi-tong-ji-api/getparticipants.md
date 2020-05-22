@@ -2,11 +2,11 @@
 
 ## URL
 
-[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/meeting/{meetingId}/participants
+[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/public/meeting/{meetingId}/participants
 
+\*\*\*\*
 
-
-## 参数
+## **参**数
 
 | 参数名称 | 是否必须 | 参数类型 | 描述 |
 | :--- | :--- | :--- | :--- |
