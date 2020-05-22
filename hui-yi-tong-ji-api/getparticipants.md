@@ -13,6 +13,7 @@
 | api\_key | 是 | String | API key |
 | api\_secret | 是 | String | API secret |
 | topic | 是 | String | 会议主题 |
+| host\_id | 是 | String | 用户id（预约会议时返回的） |
 
 
 
