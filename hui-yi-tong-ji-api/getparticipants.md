@@ -21,29 +21,36 @@
 {
     "status": 200,
     "message": "OK",
-    "data": [
-        {
-            "id": "yLiCrj0PSeqexAAputSCFA",  
-            "user_id": "16778240",
-            "user_name": "王家生",
-            "device": "安卓",
-            "ip_address": "125.33.25.190",
-            "location": "Beijing (CN)",
-            "network_type": "Wifi",
-            "join_time": "2020-03-05 13:05:37",
-            "leave_time": "2020-03-05 14:00:38",
-            "share_application": false,
-            "share_desktop": false,
-            "share_whiteboard": false,
-            "recording": false,
-            "pc_name": "",
-            "domain": "",
-            "mac_addr": "",
-            "harddisk_id": "",
-            "version": "4.3.53571.0118",
-            "leave_reason": ""
-        }
-    ]
+    "data": {
+        "duration": "180",
+        "start_time": "2020-03-25 11:30:00",
+        "total_minutes": 967,
+        "total_participants": 19,
+        "topic": "雄县业务部_郭福庆的网络会议",
+        "id": "1300133319",
+        "participants_list": [
+            {
+                "user_id": "16778240",
+                "user_name": "鲁文涛",
+                "device": "Windows",
+                "ip_address": "182.51.86.221",
+                "location": "Hebei (CN)",
+                "network_type": "Wifi",
+                "join_time": "2020-03-25 11:28:24",
+                "leave_time": "2020-03-25 12:20:56",
+                "share_application": false,
+                "share_desktop": false,
+                "share_whiteboard": false,
+                "recording": false,
+                "pc_name": "",
+                "domain": "",
+                "mac_addr": "",
+                "harddisk_id": "",
+                "version": "4.3.47204.0325",
+                "leave_reason": ""
+            }
+        ]
+    }
 }
 ```
 
