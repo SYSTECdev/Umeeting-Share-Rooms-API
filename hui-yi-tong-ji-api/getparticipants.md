@@ -2,7 +2,7 @@
 
 ## URL
 
-[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/public/meeting/{meetingId}/participants
+[https://api.systeccloud.com/umeeting](https://api.systeccloud.com/umeeting/share/schedule)/share/meeting/{meetingId}/participants
 
 \*\*\*\*
 
