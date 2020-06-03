@@ -24,7 +24,14 @@
 | host\_name | 否 | String | 主持人名称 |
 | allow\_live\_streaming | 否 | String | "true"-开启直播推流，“false"-不开启直播推流 （默认”false" |
 | waiting\_room | 否 | String | "true"-与会者入会时需要主持人允许后才能入会，“false"-与会者入会时不需要主持人的允许便可加入会议 |
-|  |  |  |  |
+| recurrence\_type | 否 | Integer | 周期会议类型 1-按天，2-按周，3-按月 （非周期会议不传或者传""（空）\) |
+| daily\_type | 否 | Integer | （周期会议按天属性）1-每天，2-工作日 |
+| weekly\_days | 否 | String | \(周期会议按周属性）示例：“1，3”，表示每周1，3重复 |
+| monthly\_week | 否 | integer | \(周期会议按月属性）每个月的第几个星期（取值范围1-5），配合monthly\_week\_day使用，表示每个月的第几个星期的星期几 |
+| monthly\_week\_day | 否 | Integer | \(周期会议按月属性）每个月的某个星期的星期几（取值范围1-7），配合monthly\_week使用，表示每个月的第几个星期的星期几 |
+| monthly\_day | 否 | Integer | \(周期会议按月属性）每个月的几号重复（取值范围1-31），这个的优先值大于monthly\_week的设置，如果monthly\_week，monthly\_day同时存在，则以monthly\_day为主 |
+| end\_times | 否 | Integer | 周期会议的次数（end\_times和end\_date\_time必填一个，如果两个同时存在以end\_date\_time 为准） |
+| end\_date\_time | 否 | String | 周期会议的结束日期（end\_times和end\_date\_time必填一个，如果两个同时存在以end\_date\_time 为准） |
 
 ## 响应
 
@@ -51,7 +58,22 @@
            yNTE3NywiYWlkIjoiUkZVaVFOVUtRVG0tbXFfcHNCeFludyIsImNpZCI6IiJ9.-qzrBzHf66b06ruZpt4
            gK2bzh6kZUXcEhmuvUOsofJs",                 // start_url，慎用
        "play_addr": "http://p2.weizan.cn/79555295/132312377802785197/live.m3u8",            // 视频地址
-       "watch_url": "https://wx.vzan.com/live/tvchat-1590377657?ver=637223897808876626"     // 观看地址
+       "watch_url": "https://wx.vzan.com/live/tvchat-1590377657?ver=637223897808876626",     // 观看地址
+       "live_id": "12345663",    //直播号
+       "occurrences": [                                 // 周期会议列表
+            {
+                "start_time": "2020-05-18 10:00:00",     // 会议开始时间
+                "uuid": "2d3l1sotx4rky8vcipkrku=="       // 每个会议的uuid（唯一）
+            },
+            {
+                "start_time": "2020-05-19 10:00:00",
+                "uuid": "9fqqv0gx57zgj83wy2pzra=="
+            },
+            {
+                "start_time": "2020-05-20 10:00:00",
+                "uuid": "1cyrs8qs2bxtq9gp115e6x=="
+            }
+        ]
 
     }
 }
