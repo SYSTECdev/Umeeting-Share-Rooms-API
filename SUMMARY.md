@@ -43,7 +43,7 @@
   * [10、删除个人账号 （废弃）](ge-ren-zhang-hao-hui-yi-api/103001-shan-chu-ge-ren-zhang-hao.md)
 * [五、Dashboard](wu-3001-dashboard/README.md)
   * [1、获取会议详情列表](wu-3001-dashboard/huo-qu-hui-yi-xiang-qing.md)
-  * [2、获取与会者](wu-3001-dashboard/23001-huo-qu-yu-hui-zhe.md)
-  * [3、获取与会者qos](wu-3001-dashboard/33001-huoqu-yu-hui-zhe-qos.md)
-  * [4、CRC使用量详情](wu-3001-dashboard/4crcshi-yong-liang-xiang-qing.md)
+  * [2、获取与会者 （废弃）](wu-3001-dashboard/23001-huo-qu-yu-hui-zhe.md)
+  * [3、获取与会者qos （废弃）](wu-3001-dashboard/33001-huoqu-yu-hui-zhe-qos.md)
+  * [4、CRC使用量详情 （废弃）](wu-3001-dashboard/4crcshi-yong-liang-xiang-qing.md)
 

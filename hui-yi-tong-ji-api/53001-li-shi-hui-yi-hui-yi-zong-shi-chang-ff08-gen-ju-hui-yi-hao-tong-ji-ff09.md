@@ -1,8 +1,8 @@
-# 5、历史会议会议总时长接口 （废弃）
+# 5、历史会议会议总时长接口
 
 ## URL
 
-[https://api.systeccloud.com/umeeting/share/meetingTime](https://api.systeccloud.com/umeeting/share/meetingTime) 
+[https://api.systeccloud.com/umeeting/share/meetingTime](https://api.systeccloud.com/umeeting/share/meetingTime)
 
 ## 参数
 
