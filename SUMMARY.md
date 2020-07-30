@@ -10,7 +10,7 @@
   * [5、结束会议接口](hui-yi-guan-li-api/jie-shu-hui-yi-jie-kou.md)
   * [6、删除会议接口](hui-yi-guan-li-api/shan-chu-hui-yi-jie-kou.md)
   * [7、在线会议查询接口](hui-yi-guan-li-api/zai-xian-hui-yi-cha-xun-jie-kou.md)
-  * [8、历史会议查询接口](hui-yi-guan-li-api/li-shi-hui-yi-cha-xun-jie-kou.md)
+  * [8、历史会议查询接口 \(废弃）](hui-yi-guan-li-api/li-shi-hui-yi-cha-xun-jie-kou.md)
   * [9、获取会议Token接口](hui-yi-guan-li-api/huo-qu-hui-yi-token-jie-kou.md)
   * [10、调整会议方数](hui-yi-guan-li-api/diao-zheng-hui-yi-fang-shu.md)
   * [11、更新推流状态](hui-yi-guan-li-api/113001-geng-xin-tui-liu-zhuang-tai.md)
